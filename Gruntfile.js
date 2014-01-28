@@ -287,6 +287,14 @@ module.exports = function (grunt) {
                 cwd: '<%= yeoman.app %>/styles',
                 dest: '.tmp/styles/',
                 src: '{,*/}*.css'
+            },
+            publish: {
+                files: [{
+                    cwd: '<%= yeoman.dist %>',
+                    expand: true,
+                    src: ['**'],
+                    dest: './'
+                }]
             }
         },
 
@@ -377,12 +385,12 @@ module.exports = function (grunt) {
         'concat',
         'sass',
         'cssmin',
-        'uglify',
         'copy:dist',
         'modernizr',
         'rev',
         'usemin',
-        'htmlmin'
+        'htmlmin',
+        'copy:publish'
     ]);
 
     grunt.registerTask('default', [

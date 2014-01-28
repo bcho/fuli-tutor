@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+@import 'mixins';
+
+$bg-color: #fff;
+$main-color: #2e88c6;
+
+$padding: 23em;
+
+body {
+    background-color: $bg-color;
+}
+
+// ---------------------------------------------------------------------------
+// header
+// ---------------------------------------------------------------------------
+
+$header-height: 100px;
+
+.header__up {
+    padding-left: $padding;
+    padding-right: $padding;
+    height: $header-height;
+
+    background-color: $main-color;
+}
+
+.header__up__logo {
+    display: -webkit-flex;
+    display: flex;
+    max-height: $header-height;
+    overflow: hidden;
+}
+
+.header__up__logo__text {
+    display: block;
+    margin: auto;
+    padding-right: 70px;
+
+    $ratio: 2.75;
+    font-size: $header-height / $ratio;
+    line-height: $header-height / $ratio;
+    font-family: 'Duru Sans', impact, sans-serif;
+    letter-spacing: .01em;
+    color: darken($main-color, 40);
+
+    @include long-shadow(text, darken($main-color, 4), 70, false, true, right);
+}
+
+.header__up__logo__text__state-bold {
+    font-weight: 700;
+}
+
+.header__down {
+    background-color: $bg-color;
+}

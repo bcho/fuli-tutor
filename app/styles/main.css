@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+body {
+  background-color: white;
+}
+
+.header__up {
+  padding-left: 23em;
+  padding-right: 23em;
+  height: 100px;
+  background-color: #2e88c6;
+}
+
+.header__up__logo {
+  display: -webkit-flex;
+  display: flex;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.header__up__logo__text {
+  display: block;
+  margin: auto;
+  padding-right: 70px;
+  font-size: 36.36364px;
+  line-height: 36.36364px;
+  font-family: 'Duru Sans', impact, sans-serif;
+  letter-spacing: .01em;
+  color: #081620;
+  text-shadow: 0px 0px 0 #2a7db5,1px 1px 0 #2a7db5,2px 2px 0 #2a7db5,3px 3px 0 #2a7db5,4px 4px 0 #2a7db5,5px 5px 0 #2a7db5,6px 6px 0 #2a7db5,7px 7px 0 #2a7db5,8px 8px 0 #2a7db5,9px 9px 0 #2a7db5,10px 10px 0 #2a7db5,11px 11px 0 #2a7db5,12px 12px 0 #2a7db5,13px 13px 0 #2a7db5,14px 14px 0 #2a7db5,15px 15px 0 #2a7db5,16px 16px 0 #2a7db5,17px 17px 0 #2a7db5,18px 18px 0 #2a7db5,19px 19px 0 #2a7db5,20px 20px 0 #2a7db5,21px 21px 0 #2a7db5,22px 22px 0 #2a7db5,23px 23px 0 #2a7db5,24px 24px 0 #2a7db5,25px 25px 0 #2a7db5,26px 26px 0 #2a7db5,27px 27px 0 #2a7db5,28px 28px 0 #2a7db5,29px 29px 0 #2a7db5,30px 30px 0 #2a7db5,31px 31px 0 #2a7db5,32px 32px 0 #2a7db5,33px 33px 0 #2a7db5,34px 34px 0 #2a7db5,35px 35px 0 #2a7db5,36px 36px 0 #2a7db5,37px 37px 0 #2a7db5,38px 38px 0 #2a7db5,39px 39px 0 #2a7db5,40px 40px 0 #2a7db5,41px 41px 0 #2a7db5,42px 42px 0 #2a7db5,43px 43px 0 #2a7db5,44px 44px 0 #2a7db5,45px 45px 0 #2a7db5,46px 46px 0 #2a7db5,47px 47px 0 #2a7db5,48px 48px 0 #2a7db5,49px 49px 0 #2a7db5,50px 50px 0 #2a7db5,51px 51px 0 #2a7db5,52px 52px 0 #2a7db5,53px 53px 0 #2a7db5,54px 54px 0 #2a7db5,55px 55px 0 #2a7db5,56px 56px 0 #2a7db5,57px 57px 0 #2a7db5,58px 58px 0 #2a7db5,59px 59px 0 #2a7db5,60px 60px 0 #2a7db5,61px 61px 0 #2a7db5,62px 62px 0 #2a7db5,63px 63px 0 #2a7db5,64px 64px 0 #2a7db5,65px 65px 0 #2a7db5,66px 66px 0 #2a7db5,67px 67px 0 #2a7db5,68px 68px 0 #2a7db5,70px 70px 0 rgba(0, 0, 0, 0);
+}
+
+.header__up__logo__text__state-bold {
+  font-weight: 700;
+}
+
+.header__down {
+  background-color: white;
+}

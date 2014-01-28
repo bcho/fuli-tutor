@@ -1,0 +1,11 @@
+{
+  "name": "tutor",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2",
+    "pure": "~0.3.0",
+    "typo.css": "*"
+  },
+  "devDependencies": {}
+}
